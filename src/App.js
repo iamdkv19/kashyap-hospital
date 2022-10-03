@@ -8,6 +8,7 @@ import Faq from "./page/faq"
 import Gallery from "./page/gallery"
 import Reviews from "./page/reviews"
 import Treatment from "./page/treatment"
+import './App.css'
 function App() {
   return (
     <div className="App">
