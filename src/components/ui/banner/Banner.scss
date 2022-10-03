@@ -1,0 +1,19 @@
+.banner_wrp {
+    background-image: url("../../../images/banner.png");
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner_details {
+        width: 86%;
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: column;
+        button {
+            width: 130px;
+        }
+    }
+}
