@@ -1,0 +1,49 @@
+.specialities_wrp {
+  width: 88%;
+  margin: 70px auto;
+
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 500;
+        color: #000;
+        margin-top: 15px;
+    }
+
+    h6 {
+      font-size: 13px;
+      font-weight: 500;
+      color: #fc1b15;
+    }
+
+    p{
+        font-size: 12px;
+        color: #2f2f2f;
+        line-height: 22px;
+        font-weight: 500;
+        width: 55%;
+        margin-top: 20px;
+        text-align: center;
+    }
+  }
+
+  .down{
+
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .specialities_wrp{
+        .top{
+            p{
+                width: 90%;
+            }
+        }
+    }
+}
