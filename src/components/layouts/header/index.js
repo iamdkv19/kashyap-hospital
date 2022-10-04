@@ -5,15 +5,14 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import searchIcon from "../../../images/search_icon.png"
 import "./Header.scss"
 const Header = () => {
   return (
     <div className="header_wrp">
-      <Navbar key="md" bg="light" expand="md" className="mb-3 navbar_wrp">
-        <Container className="navbar_cantainer">
+      <Navbar key="md" bg="light" expand="md" className=" navbar_wrp">
+        <Container className=" p-0 navbar_cantainer">
           <Navbar.Brand>Logo</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md `} />
           <Navbar.Offcanvas
