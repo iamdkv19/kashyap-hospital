@@ -4,7 +4,7 @@ import "./card.scss";
 const Card = () => {
   return (
     <div className="col-lg-3 col-md-6 col-12 px-2 card_wrp">
-      <div className="card_details border-0 mt-5 p-4">
+      <div className="card border-0 mt-5 p-4">
         <div className="top">
           <div className="image">
             <svg
