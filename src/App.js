@@ -21,7 +21,6 @@ function App() {
         <Route exact path='/gallery' element={<Gallery />} />
         <Route exact path='/reviews' element={<Reviews />} />
         <Route exact path='/treatment' element={<Treatment />} />
-        
       </Routes>
     </div>
   );
