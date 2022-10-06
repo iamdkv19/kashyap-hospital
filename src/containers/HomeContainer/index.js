@@ -4,6 +4,9 @@ import About from "../../components/ui/About";
 import ContactForm from "../../components/ui/Contact";
 import ContactNo from "../../components/ui/contact-no";
 import Specialities from "../../components/ui/Specialities/";
+import Appointment from "../../components/ui/appointment";
+import ImageCard from "../../components/ui/Specialities/image-card";
+import ConsultancyForm from "../../components/ui/consultancy-form";
 
 const HomeContainer = () => {
   return (
@@ -13,6 +16,9 @@ const HomeContainer = () => {
       <About />
       <Specialities />
       <ContactNo />
+      <Appointment/>
+      <ImageCard/>
+      <ConsultancyForm/>
     </div>
   );
 };
