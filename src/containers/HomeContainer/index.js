@@ -17,11 +17,11 @@ const HomeContainer = () => {
       <About />
       <Specialities />
       <ContactNo />
-        <Choice />
-      <Appointment/>
-      <ImageCard/>
+      <Choice />
+      <Appointment />
+      <ImageCard />
       <Feedback />
-      <ConsultancyForm/>
+      <ConsultancyForm />
     </div>
   );
 };

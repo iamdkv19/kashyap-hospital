@@ -4,7 +4,6 @@
     justify-content: center;
     //   align-items: center;
     background-color: #fff;
-    height: 340px;
     .form_details_wrp {
       width: 87%;
       display: flex;
@@ -12,7 +11,7 @@
       align-items: center;
       z-index: 11;
       height: 230px;
-      margin-bottom: -100px;
+      margin-bottom: -75px;
       background-color: #fff;
       border-radius: 10px;
       box-shadow: 2px 5px 10px rgb(235, 230, 230);
@@ -71,7 +70,7 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        margin: 20px 0px;
+        margin-bottom: 20px;
       }
       .Input_details {
         //   background-color: rgb(155, 148, 148);
@@ -131,17 +130,18 @@
     }
   }
   @media only screen and (max-width: 768px) {
-    .contact_wrp {
+    .Consultancy_wrp {
       height: auto;
       .form_details_wrp {
         height: auto;
-        .contact_form_wrp {
+        .Consultancy_form_wrp {
           .form_input_fields {
             width: 100%;
             .input_fields {
               width: 100%;
               flex-direction: column !important;
               margin: 0px;
+
               .Input_details {
                 width: 100%;
                 margin-bottom: 20px;
