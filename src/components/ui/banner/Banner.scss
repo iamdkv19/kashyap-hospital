@@ -1,0 +1,95 @@
+.banner_wrp {
+  background-image: url("../../../images/banner.png");
+  height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner_details {
+    width: 87%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    .banner_details_body {
+      width: 40%;
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 60px;
+        /* or 129% */
+
+        color: #000000;
+      }
+      h4 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 29px;
+        /* identical to box height, or 171% */
+
+        color: #fc1b15;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #2f2f2f;
+      }
+      .appointmentBtn {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        button {
+            width: 175px;
+            border: none;
+            font-size: 12px;
+            background-color: #fc1b15;
+            border-radius: 50px;
+            padding: 5px;
+
+    
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 21px;
+            /* identical to box height, or 131% */
+    
+            color: #ffffff;
+            span {
+                margin-left: 8px;
+
+            }
+            img {
+                margin-left: 10px;
+                background-color:#B10500;
+                padding: 3px;
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+
+              }
+          }
+         
+      }
+   
+    }
+  }
+}
+
+@media only screen and (max-width:768px)  {
+    .banner_wrp {
+        height: 500px;
+    .banner_details_body {
+        width: 100% !important;
+    }
+}
+}

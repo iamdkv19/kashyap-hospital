@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import HomeContainer from '../../containers/HomeContainer'
 import "./HomePage.scss"
 const HomePage = () => {
   return (
-    <div className='home_wrp'>HomePage</div>
+    <div className='home_wrp'>
+  <HomeContainer/>
+    </div>
   )
 }
 
