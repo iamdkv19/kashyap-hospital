@@ -1,6 +1,7 @@
 .specialities_wrp {
   width: 88%;
   margin: 70px auto;
+  font-family: 'Poppins', sans-serif;
 
   .top {
     display: flex;
@@ -10,7 +11,7 @@
 
     h1 {
         font-size: 28px;
-        font-weight: 500;
+        font-weight: 600;
         color: #000;
         margin-top: 15px;
     }
@@ -26,7 +27,7 @@
         color: #2f2f2f;
         line-height: 22px;
         font-weight: 500;
-        width: 55%;
+        width: 56%;
         margin-top: 20px;
         text-align: center;
     }

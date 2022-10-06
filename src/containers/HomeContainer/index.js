@@ -7,7 +7,8 @@ import Specialities from "../../components/ui/Specialities/";
 import Appointment from "../../components/ui/appointment";
 import ImageCard from "../../components/ui/Specialities/image-card";
 import ConsultancyForm from "../../components/ui/consultancy-form";
-
+import Choice from "../../components/ui/Choice";
+import Feedback from "../../components/ui/Feedback";
 const HomeContainer = () => {
   return (
     <div>
@@ -16,8 +17,10 @@ const HomeContainer = () => {
       <About />
       <Specialities />
       <ContactNo />
+        <Choice />
       <Appointment/>
       <ImageCard/>
+      <Feedback />
       <ConsultancyForm/>
     </div>
   );
